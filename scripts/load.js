@@ -4,8 +4,16 @@ function preload() {
     'imagens/cenario/floresta.png'
   );
 
+  fita = loadJSON(
+    'fita/fita.json'
+  );
+
   imagemPersonagem = loadImage(
     'imagens/personagem/correndo.png'
+  );
+
+  imagemVida = loadImage(
+    'imagens/assets/coracao.png'
   );
 
   imagemInimigo = loadImage(
@@ -31,7 +39,7 @@ function preload() {
   somDoPulo = loadSound(
     'sons/somPulo.mp3'
   );
-  
+
   imagemTelaInicial = loadImage(
     'imagens/assets/telaInicial.png'
   );

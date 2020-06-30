@@ -1,6 +1,7 @@
 let imagemTelaInicial;
 let imagemCenario;
 let imagemPersonagem;
+let imagemVida;
 let imagemInimigo;
 let imagemInimigoGrande;
 let imagemInimigoVoador;
@@ -8,14 +9,16 @@ let imagemGameOver;
 
 let jogo;
 let cenario;
+let vida;
 let somDoJogo;
 let somDoPulo;
 let pontuacao;
 let fonteTelaInicial;
 let botaoGerenciador;
+let fita; // Arquivo do mapa
 
 let cenas;
-let cenaAtual = 'telaInicial';
+let cenaAtual = 'jogo';
 let telaInicial;
 
 let personagem;
