@@ -18,7 +18,7 @@ let botaoGerenciador;
 let fita; // Arquivo do mapa
 
 let cenas;
-let cenaAtual = 'jogo';
+let cenaAtual = 'telaInicial';
 let telaInicial;
 
 let personagem;
