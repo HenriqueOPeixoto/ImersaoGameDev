@@ -16,7 +16,7 @@ function setup() {
     telaInicial
   };
 
-  //somDoJogo.loop();
+  somDoJogo.loop();
 }
 
 function keyPressed() {
